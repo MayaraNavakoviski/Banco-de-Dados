@@ -9,7 +9,7 @@ Finalizado: 01 de julho de 2024. -
 Link das Atividades: https://anapaulawauke.wordpress.com/
 
 
-Professora; Ana Carla -
+Professora: Ana Carla -
 
 Iniciado: 01 de julho de 2024. -
 
