@@ -26,20 +26,20 @@ create table Livros (
 alter table Livros add column preco decimal(5,2);
 alter table Categorias add column quantidade int;
 
-insert into Autores (id, nome, nacionalidade) values (1, 'Rick Riordan', 'Americana');
-insert into Autores (id, nome, nacionalidade) values (2, 'J.K. Rowling', 'Britânica');
-insert into Autores (id, nome, nacionalidade) values (3, 'Lucy Maud Montgomery', 'Canadense');
+insert into Autores (id, nome, nacionalidade) values (1, 'Clarice Lispector', 'Brasileira');
+insert into Autores (id, nome, nacionalidade) values (2, 'José de Alencar', 'Brasileiro');
+insert into Autores (id, nome, nacionalidade) values (3, 'Cecília Meireles ', 'Brasileira');
 
-insert into Categorias (id, descricao) values (1, 'Fantasia');
-insert into Categorias (id, descricao) values (2, 'Juvenil');
-insert into Categorias (id, descricao) values (3, 'Drama');
+insert into Categorias (id, descricao) values (1, 'Literatura Instimista');
+insert into Categorias (id, descricao) values (2, 'Romantismo');
+insert into Categorias (id, descricao) values (3, 'Modernismo');
 
-insert into Livros (id, titulo, ano_publicacao, id_autor, id_categoria, preco) values (1, 'Percy Jackson e o Ladrão de Raios', 2005, 1, 1, 34.90);
-insert into Livros (id, titulo, ano_publicacao, id_autor, id_categoria, preco) values (2, 'Harry Potter e a Pedra Filosofal', 1997, 2, 1, 29.90);
-insert into Livros (id, titulo, ano_publicacao, id_autor, id_categoria, preco) values (3, 'Anne of Green Gables', 1908, 3, 3, 25.90);
+insert into Livros (id, titulo, ano_publicacao, id_autor, id_categoria, preco) values (1, 'Laços de Família', 1960, 1, 1, 30.09);
+insert into Livros (id, titulo, ano_publicacao, id_autor, id_categoria, preco) values (2, 'Iracema', 1865, 2, 2, 33.90);
+insert into Livros (id, titulo, ano_publicacao, id_autor, id_categoria, preco) values (3, 'Romanceiro da Inconfidência, 1953, 3, 3, 54.90);
 
-insert into Autores (id, nome, nacionalidade) values (4, 'C.S. Lewis', 'Britânica');
-insert into Livros (id, titulo, ano_publicacao, id_autor, id_categoria, preco) values (4, 'O Leão, a Feiticeira e o Guarda-Roupa', 1950, 4, 1, 39.90);
+insert into Autores (id, nome, nacionalidade) values (4, 'Lygia Fagundes Telles', 'Brasileira');
+insert into Livros (id, titulo, ano_publicacao, id_autor, id_categoria, preco) values (4, 'Ciranda de Pedra', 2008, 4, 1, 47.20);
 
 update Categorias set descricao = 'Romance' where id = 1;
 update Livros set preco = preco * 1.10 where ano_publicacao < 2000;
