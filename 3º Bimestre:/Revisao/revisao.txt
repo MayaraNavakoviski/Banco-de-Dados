@@ -1,0 +1,76 @@
+﻿1) Qual comando DML é usado para inserir um novo registro em uma tabela no banco de dados?
+c) INSERT
+
+2) Para alterar dados já existentes em uma tabela, usamos o comando:
+d) UPDATE
+
+3) Qual comando DDL é usado para criar uma nova tabela em um banco de dados?
+a) CREATE TABLE
+
+4) O comando DELETE FROM tabela remove:
+a) Somente registros específicos com condição de exclusão
+
+5)Qual a função do comando TRUNCATE em comparação com DELETE?
+c) Remove todos os registros, mas mantém a estrutura da tabela.
+
+6)Para adicionar uma nova coluna em uma tabela existente, qual comando DDL usamos?
+c) ADD COLUMN
+
+7)Qual comando é utilizado para alterar o tipo de dado de uma coluna existente?
+b) ALTER COLUMN
+
+8)Quando queremos eliminar uma tabela completamente do banco de dados, usamos:	
+b) DROP TABLE
+
+9). Para selecionar todos os registros de uma tabela chamada clientes, utilizamos:
+a) SELECT * FROM clientes
+
+10)O comando INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2) serve para:
+a) Adicionar um novo registro com valores para as colunas especificadas
+
+11)Como se chama a operação de remover todos os registros de uma tabela sem eliminar sua estrutura?
+c) TRUNCATE
+
+12)Qual comando DDL permite modificar a estrutura de uma tabela?
+b) MODIFY TABLE
+
+13)Para renomear uma tabela chamada pedidos para pedidos_venda, qual comando deve ser usado?
+c) CHANGE pedidos pedidos_venda
+
+14)O comando DDL utilizado para criar um banco de dados é:
+a) CREATE DATABASE
+
+15) Para remover uma coluna específica em uma tabela, usamos:
+a) ALTER TABLE tabela DROP COLUMN coluna
+
+16) O comando SELECT pode ser utilizado com qual cláusula para filtrar registros específicos?
+a) WHERE
+
+17) Para atualizar múltiplos registros de uma só vez, usamos o comando:
+c) UPDATE
+
+18) Ao realizar uma inserção de dados, se quisermos que uma coluna receba o valor padrão, usamos:
+d) OMITIR o valor
+
+19) O comando ALTER TABLE nome_tabela ADD CONSTRAINT serve para:
+c) Alterar a estrutura adicionando regras.
+
+20)Para selecionar registros com valores únicos em uma coluna específica, usamos:
+a) SELECT DISTINCT coluna FROM tabela
+
+21) Sobre a linguagem SQL (Structured Query Language), assinale a alternativa que corresponde a uma instrução capaz de copiar dados de uma tabela e inseri-los em outra tabela existente, desde que os tipos de dados nas tabelas de origem e destino correspondam.
+e) INSERT INTO SELECT
+
+22) Considerando-se a estrutura das tabelas Funcionarios e Dependentes, qual consulta SQL retorna os nomes dos funcionários de uma empresa que ganham mais de R$ 3.000,00, moram em Bragança/SP e têm dependentes?
+d) SELECT Funcionarios.nome FROM Funcionarios JOIN Dependentes ON Funcionarios.id = Dependentes.funcionario_id WHERE Funcionarios.salario > 3000 AND Funcionarios.cidade = 'Bragança' AND Funcionarios.estado = 'SP';
+
+23) Para gerenciar e manipular dados em bancos de dados relacionais, são utilizadas linguagens específicas que permitem criar, ler, atualizar e excluir informações. Essas linguagens são essenciais para interagir eficientemente com os dados armazenados. Trata-se de linguagem de consulta utilizada para interagir com bancos de dados relacionais:
+a) SQL.
+
+
+24) A Linguagem de Consulta Estruturada (SQL) fornece uma gama de tipos de dados que podem ser utilizados para definir a forma com que informações serão armazenadas no banco de dados. Assinale a alternativa que relaciona corretamente um tipo de dado à respectiva definição.
+d) VARCHAR (tamanho): sequência de caracteres de tamanho variável. Os espaços não ocupados pelo texto não são armazenados, são ignorados, com capacidade para armazenar de 1 a 255 caracteres.
+
+25) Qual o código SQL contém comandos do tipo DDL?
+a) drop table questoes
+
